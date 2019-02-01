@@ -1,11 +1,11 @@
 # fints (HBCI) to OFX export, for using with YNAB
 Get Transactions via fints (HBCI) and safe them in a OFX File
 
-#Dependencies
+## Dependencies
 Please use pip to install these Modules first:
 pip install fints lxml
 
-#Parameters
+## Parameters
 The Script is contolled by a config File (settings.yml) in yaml Syntax. This Parameters must be definied:
 
 ```yaml
@@ -21,7 +21,7 @@ account:
 *username: Your Bank login Name or Number
 *api: The fints (HBCI) API URL from your Bank
 
-#Run the Script
+## Run the Script
 
 ```bash
 fintsToOFX git:(master) ✗ python3 GetTransactions.py
