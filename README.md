@@ -1,4 +1,4 @@
-# fints (HBCI) to OFX export, for using with YNAB
+# FinTS (HBCI) to OFX export, for using with YNAB
 Get Transactions via fints (HBCI) and safe them in a OFX File
 
 ## Dependencies
