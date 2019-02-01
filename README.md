@@ -2,11 +2,11 @@
 Get Transactions via fints (HBCI) and safe them in a OFX File
 
 ## Dependencies
-Please use pip to install these Modules first:
+Please use pip to install these Python-modules first:
 pip install fints lxml
 
 ## Parameters
-The Script is contolled by a config File (settings.yml) in yaml Syntax. This Parameters must be definied:
+The scripts config File (settings.yml) is in yaml Syntax. This parameters must be defined:
 
 ```yaml
 account:
@@ -16,10 +16,10 @@ account:
   api: 'https://hbci.postbank.de/banking/hbci.do'
 ```
 
-* blz:  Your Bank code
-* acc: Your Bank account number
-* username: Your Bank login Name or Number
-* api: The fints (HBCI) API URL from your Bank
+* blz: bank code
+* acc: bank account number
+* username: bank login Name or Number
+* api: FinTS (HBCI) API URL
 
 ## Run the Script
 
@@ -29,5 +29,5 @@ Password:
 Transactions for the last x Days:2
 ```
 
-The Script first asks you for your Banking Passwort or PIN. The second input is the Value, how many days in the past you will request. 
-The Script will save the OFX file on your Desktop. Maybe it's necessary that you edit the Path on Lines 88-90.
+The script first asks you for your banking password or PIN. The second input is how many days in the past you will request.
+The script will save the OFX file on your Desktop. Maybe it's necessary that you edit the Path on Lines 88-90.
