@@ -1,0 +1,5 @@
+account:
+  blz: 76010085
+  acc: 12345678
+  username: 'XXXXX'
+  api: 'https://hbci.postbank.de/banking/hbci.do'
