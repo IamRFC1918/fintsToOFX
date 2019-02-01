@@ -16,10 +16,10 @@ account:
   api: 'https://hbci.postbank.de/banking/hbci.do'
 ```
 
-*blz:  Your Bank code
-*acc: Your Bank account number
-*username: Your Bank login Name or Number
-*api: The fints (HBCI) API URL from your Bank
+* blz:  Your Bank code
+* acc: Your Bank account number
+* username: Your Bank login Name or Number
+* api: The fints (HBCI) API URL from your Bank
 
 ## Run the Script
 
